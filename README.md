@@ -14,9 +14,9 @@ spark.com.cacoveanu.SparkBasicAuthFilter.param.realm your_realm
 ```
  - 5. Restart your cluster
  - 6. The following urls will be protected. Using default ports:
-  - http://master:8080
-  - http://worker:8081
-  - http://driver:4040
+   - http://master:8080
+   - http://worker:8081
+   - http://driver:4040
  - 7. If you want programmatic authentication, for example when using spark restful api, try:
 ```
 from requests import Session, auth
